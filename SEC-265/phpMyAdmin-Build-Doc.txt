@@ -1,0 +1,5 @@
+wget https://github.com/Joe-Marchesini/Marchesini---Tech-Journal/blob/master/SEC-265/compose.yml
+nano compose.yml *(CHANGE PASSWORD)*
+docker compose up -d
+
+sudo ufw allow 80/tcp
