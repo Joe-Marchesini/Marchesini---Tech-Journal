@@ -1,0 +1,3 @@
+sudo ceph -v
+sudo ceph status
+sudo rbd list
