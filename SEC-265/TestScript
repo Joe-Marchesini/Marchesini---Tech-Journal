@@ -1,3 +1,7 @@
-sudo ceph -v
-sudo ceph status
-sudo rbd list
+sudo ceph -v (shows the version of ceph)
+sudo ceph status (displays ceph cluster status)
+sudo rbd list (lists RBDs created)
+
+TEST:
+sudo umount /dev/sdc1
+sudo ceph status (should be "HEALTH_WARN")
