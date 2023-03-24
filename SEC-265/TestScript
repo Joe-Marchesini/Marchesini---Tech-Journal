@@ -3,5 +3,6 @@ sudo ceph status (displays ceph cluster status)
 sudo rbd list (lists RBDs created)
 
 TEST:
+ls /dev/
 sudo umount /dev/sdc
 sudo ceph status (should be "HEALTH_WARN")
